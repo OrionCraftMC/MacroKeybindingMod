@@ -1,0 +1,121 @@
+From 8c5f461faf8db4b8c960ad45b4ad022436ed8aeb Mon Sep 17 00:00:00 2001
+From: NickAc <32451103+NickAcPT@users.noreply.github.com>
+Date: Fri, 5 Aug 2022 19:59:14 +0100
+Subject: [PATCH] Move resources
+
+
+diff --git a/src/main/java/.gui.xml b/src/main/resources/.gui.xml
+similarity index 100%
+rename from src/main/java/.gui.xml
+rename to src/main/resources/.gui.xml
+diff --git a/src/main/java/.jinput.txt b/src/main/resources/.jinput.txt
+similarity index 100%
+rename from src/main/java/.jinput.txt
+rename to src/main/resources/.jinput.txt
+diff --git a/src/main/java/font/fixedwidth.png b/src/main/resources/font/fixedwidth.png
+similarity index 100%
+rename from src/main/java/font/fixedwidth.png
+rename to src/main/resources/font/fixedwidth.png
+diff --git a/src/main/java/gui/checker.png b/src/main/resources/gui/checker.png
+similarity index 100%
+rename from src/main/java/gui/checker.png
+rename to src/main/resources/gui/checker.png
+diff --git a/src/main/java/gui/macrosGuiExt.png b/src/main/resources/gui/macrosGuiExt.png
+similarity index 100%
+rename from src/main/java/gui/macrosGuiExt.png
+rename to src/main/resources/gui/macrosGuiExt.png
+diff --git a/src/main/java/gui/macrosGuiMain.png b/src/main/resources/gui/macrosGuiMain.png
+similarity index 100%
+rename from src/main/java/gui/macrosGuiMain.png
+rename to src/main/resources/gui/macrosGuiMain.png
+diff --git a/src/main/java/gui/mouse.png b/src/main/resources/gui/mouse.png
+similarity index 100%
+rename from src/main/java/gui/mouse.png
+rename to src/main/resources/gui/mouse.png
+diff --git a/src/main/java/gui/picker.png b/src/main/resources/gui/picker.png
+similarity index 100%
+rename from src/main/java/gui/picker.png
+rename to src/main/resources/gui/picker.png
+diff --git a/src/main/java/icons/friends.png b/src/main/resources/icons/friends.png
+similarity index 100%
+rename from src/main/java/icons/friends.png
+rename to src/main/resources/icons/friends.png
+diff --git a/src/main/java/icons/homes.png b/src/main/resources/icons/homes.png
+similarity index 100%
+rename from src/main/java/icons/homes.png
+rename to src/main/resources/icons/homes.png
+diff --git a/src/main/java/icons/players.png b/src/main/resources/icons/players.png
+similarity index 100%
+rename from src/main/java/icons/players.png
+rename to src/main/resources/icons/players.png
+diff --git a/src/main/java/icons/towns.png b/src/main/resources/icons/towns.png
+similarity index 100%
+rename from src/main/java/icons/towns.png
+rename to src/main/resources/icons/towns.png
+diff --git a/src/main/java/lang/macros/de_DE.lang b/src/main/resources/lang/macros/de_DE.lang
+similarity index 100%
+rename from src/main/java/lang/macros/de_DE.lang
+rename to src/main/resources/lang/macros/de_DE.lang
+diff --git a/src/main/java/lang/macros/en_GB.lang b/src/main/resources/lang/macros/en_GB.lang
+similarity index 100%
+rename from src/main/java/lang/macros/en_GB.lang
+rename to src/main/resources/lang/macros/en_GB.lang
+diff --git a/src/main/java/lang/macros/es_ES.lang b/src/main/resources/lang/macros/es_ES.lang
+similarity index 100%
+rename from src/main/java/lang/macros/es_ES.lang
+rename to src/main/resources/lang/macros/es_ES.lang
+diff --git a/src/main/java/lang/macros/events/en_GB.lang b/src/main/resources/lang/macros/events/en_GB.lang
+similarity index 100%
+rename from src/main/java/lang/macros/events/en_GB.lang
+rename to src/main/resources/lang/macros/events/en_GB.lang
+diff --git a/src/main/java/lang/macros/events/es_ES.lang b/src/main/resources/lang/macros/events/es_ES.lang
+similarity index 100%
+rename from src/main/java/lang/macros/events/es_ES.lang
+rename to src/main/resources/lang/macros/events/es_ES.lang
+diff --git a/src/main/java/lang/macros/events/nb_NO.lang b/src/main/resources/lang/macros/events/nb_NO.lang
+similarity index 100%
+rename from src/main/java/lang/macros/events/nb_NO.lang
+rename to src/main/resources/lang/macros/events/nb_NO.lang
+diff --git a/src/main/java/lang/macros/events/ru_RU.lang b/src/main/resources/lang/macros/events/ru_RU.lang
+similarity index 100%
+rename from src/main/java/lang/macros/events/ru_RU.lang
+rename to src/main/resources/lang/macros/events/ru_RU.lang
+diff --git a/src/main/java/lang/macros/fr_FR.lang b/src/main/resources/lang/macros/fr_FR.lang
+similarity index 100%
+rename from src/main/java/lang/macros/fr_FR.lang
+rename to src/main/resources/lang/macros/fr_FR.lang
+diff --git a/src/main/java/lang/macros/nb_NO.lang b/src/main/resources/lang/macros/nb_NO.lang
+similarity index 100%
+rename from src/main/java/lang/macros/nb_NO.lang
+rename to src/main/resources/lang/macros/nb_NO.lang
+diff --git a/src/main/java/lang/macros/nl_NL.lang b/src/main/resources/lang/macros/nl_NL.lang
+similarity index 100%
+rename from src/main/java/lang/macros/nl_NL.lang
+rename to src/main/resources/lang/macros/nl_NL.lang
+diff --git a/src/main/java/lang/macros/pl_PL.lang b/src/main/resources/lang/macros/pl_PL.lang
+similarity index 100%
+rename from src/main/java/lang/macros/pl_PL.lang
+rename to src/main/resources/lang/macros/pl_PL.lang
+diff --git a/src/main/java/lang/macros/ru_RU.lang b/src/main/resources/lang/macros/ru_RU.lang
+similarity index 100%
+rename from src/main/java/lang/macros/ru_RU.lang
+rename to src/main/resources/lang/macros/ru_RU.lang
+diff --git a/src/main/java/lang/macros/scripting/en_GB.xml b/src/main/resources/lang/macros/scripting/en_GB.xml
+similarity index 100%
+rename from src/main/java/lang/macros/scripting/en_GB.xml
+rename to src/main/resources/lang/macros/scripting/en_GB.xml
+diff --git a/src/main/java/lang/macros/ua_UA.lang b/src/main/resources/lang/macros/ua_UA.lang
+similarity index 100%
+rename from src/main/java/lang/macros/ua_UA.lang
+rename to src/main/resources/lang/macros/ua_UA.lang
+diff --git a/src/main/java/textures/macros/icons/place.png b/src/main/resources/textures/macros/icons/place.png
+similarity index 100%
+rename from src/main/java/textures/macros/icons/place.png
+rename to src/main/resources/textures/macros/icons/place.png
+diff --git a/src/main/java/version.txt b/src/main/resources/version.txt
+similarity index 100%
+rename from src/main/java/version.txt
+rename to src/main/resources/version.txt
+-- 
+2.36.0.windows.1
+

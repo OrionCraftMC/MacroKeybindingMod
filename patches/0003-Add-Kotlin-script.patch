@@ -1,0 +1,29 @@
+From 36bd7df561f297867751ce975fa309af15e35059 Mon Sep 17 00:00:00 2001
+From: NickAc <32451103+NickAcPT@users.noreply.github.com>
+Date: Fri, 5 Aug 2022 19:57:57 +0100
+Subject: [PATCH] Add Kotlin script
+
+
+diff --git a/build.gradle.kts b/build.gradle.kts
+new file mode 100644
+index 0000000000000000000000000000000000000000..ffef17a72dff45dd6e2c41b1deea0d322d27d979
+--- /dev/null
++++ b/build.gradle.kts
+@@ -0,0 +1,13 @@
++plugins {
++    id("java")
++}
++
++group = "io.github.orioncraftmc"
++version = "1.0-SNAPSHOT"
++
++repositories {
++    mavenCentral()
++}
++
++dependencies {
++}
+\ No newline at end of file
+-- 
+2.36.0.windows.1
+

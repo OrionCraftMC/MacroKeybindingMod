@@ -1,0 +1,77 @@
+From edbb3ef04bd8a148aaca5a0e680677d1ad9ce1a7 Mon Sep 17 00:00:00 2001
+From: NickAc <32451103+NickAcPT@users.noreply.github.com>
+Date: Fri, 5 Aug 2022 19:50:14 +0100
+Subject: [PATCH] Remove META-INF
+
+
+diff --git a/src/main/java/META-INF/INDEX.LIST b/src/main/java/META-INF/INDEX.LIST
+deleted file mode 100644
+index 861a1aff92596ccbbba1bc571732ec43b50cfb43..0000000000000000000000000000000000000000
+--- a/src/main/java/META-INF/INDEX.LIST
++++ /dev/null
+@@ -1,62 +0,0 @@
+-JarIndex-Version: 1.0
+-
+-mod_macros_0.9.9_mc1.5.2.litemod
+-font
+-gui
+-icons
+-lang
+-lang/macros
+-lang/macros/events
+-lang/macros/scripting
+-net
+-net/eq2online
+-net/eq2online/console
+-net/eq2online/jinput
+-net/eq2online/macros
+-net/eq2online/macros/compatibility
+-net/eq2online/macros/compatibility/hooks
+-net/eq2online/macros/core
+-net/eq2online/macros/core/params
+-net/eq2online/macros/event
+-net/eq2online/macros/event/providers
+-net/eq2online/macros/gui
+-net/eq2online/macros/gui/controls
+-net/eq2online/macros/gui/controls/specialised
+-net/eq2online/macros/gui/designable
+-net/eq2online/macros/gui/designable/editor
+-net/eq2online/macros/gui/dialogs
+-net/eq2online/macros/gui/helpers
+-net/eq2online/macros/gui/layout
+-net/eq2online/macros/gui/list
+-net/eq2online/macros/gui/screens
+-net/eq2online/macros/gui/shared
+-net/eq2online/macros/input
+-net/eq2online/macros/interfaces
+-net/eq2online/macros/interfaces/annotations
+-net/eq2online/macros/permissions
+-net/eq2online/macros/rendering
+-net/eq2online/macros/scripting
+-net/eq2online/macros/scripting/actions
+-net/eq2online/macros/scripting/actions/game
+-net/eq2online/macros/scripting/actions/input
+-net/eq2online/macros/scripting/actions/lang
+-net/eq2online/macros/scripting/actions/mod
+-net/eq2online/macros/scripting/actions/option
+-net/eq2online/macros/scripting/api
+-net/eq2online/macros/scripting/crafting
+-net/eq2online/macros/scripting/exceptions
+-net/eq2online/macros/scripting/iterators
+-net/eq2online/macros/struct
+-net/eq2online/obfuscation
+-net/eq2online/permissions
+-net/eq2online/permissions/impl
+-net/eq2online/util
+-net/eq2online/xml
+-textures
+-textures/macros
+-textures/macros/icons
+-.gui.xml
+-.jinput.txt
+-GuiChatAdapter.class
+-version.txt
+-
+-- 
+2.36.0.windows.1
+
